@@ -1,5 +1,5 @@
 # csv_kmeans_clustering
-K-Means Clustering of a given CSV dataset (unsupervised learning). 
+K-Means Clustering of a given CSV dataset (unsupervised learning).  
 Use the '-h- flag for detailed guidelines and usage example.  
   
 CSV format:  
