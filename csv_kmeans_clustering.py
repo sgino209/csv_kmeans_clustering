@@ -124,7 +124,7 @@ def get_user_params(_argv):
 
   # User-Arguments parameters (overrides defaults):
   try:
-      opts, user_args = getopt(_argv, "h", ["csv_in=", "delimeter_in=", "blacklist_in=", "reports_out=", "verbosity_out=", "max_clusters=", "plots_en", "save_plot_as=", "debug_en", "quiet"])
+      opts, user_args = getopt(_argv, "h", ["csv_in=", "delimiter_in=", "blacklist_in=", "reports_out=", "verbosity_out=", "max_clusters=", "plots_en", "save_plot_as=", "debug_en", "quiet"])
 
       for opt, user_arg in opts:
           if opt == '-h':
